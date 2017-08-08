@@ -1,0 +1,11 @@
+# .yml Configuration file
+---
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/nuttdguy/cloud-server-config
+          
+server:
+  port: 8001
